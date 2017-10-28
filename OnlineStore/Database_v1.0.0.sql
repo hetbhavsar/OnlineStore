@@ -11,7 +11,7 @@ CREATE TABLE [dbo].[OnlineStore_Product](
 	[Observation] [nvarchar] (400) NULL,
 	[Price] [double] NULL,
 	[IsDeleted] [bit] NULL,
-	[IsVisible] [bit] NULL;	
+	[IsVisible] [bit] NULL,	
 	CONSTRAINT	PK_OnlineStore_Product PRIMARY KEY (Id)	
 	)
 End
@@ -27,7 +27,7 @@ CREATE TABLE [dbo].[OnlineStore_Category](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Name] [nvarchar](300) NOT NULL,
 	[Observation] [nvarchar] (400) NULL,
-	[IsDeleted] [bit] NULL;	
+	[IsDeleted] [bit] NULL,	
 	CONSTRAINT	PK_OnlineStore_Category PRIMARY KEY (Id)	
 	)
 End
@@ -45,7 +45,7 @@ CREATE TABLE [dbo].[OnlineStore_Customer](
 	[Address] [nvarchar](500) NOT NULL,
 	[Email] [nvarchar](300) NOT NULL,
 	[MobilePhone] int NOT NULL,
-	[NIF] int NULL;	
+	[NIF] int NULL,	
 	[Observation] [nvarchar] (400) NULL,
 	[IsDeleted] [bit] NULL,
 	CONSTRAINT	PK_OnlineStore_Customer PRIMARY KEY (Id)
