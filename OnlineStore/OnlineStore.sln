@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore", "OnlineStore\OnlineStore.csproj", "{17FAC679-B1A4-4913-8FD4-6111AC3BAD26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.Domain", "OnlineStore.Domain\OnlineStore.Domain.csproj", "{2BC7869D-5ED9-4F23-A0D6-722E1D8BA131}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{164CE261-0361-4CA9-AAF2-23CBD8DBF35C}"
+	ProjectSection(SolutionItems) = preProject
+		Database_v1.0.0.sql = Database_v1.0.0.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{17FAC679-B1A4-4913-8FD4-6111AC3BAD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17FAC679-B1A4-4913-8FD4-6111AC3BAD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17FAC679-B1A4-4913-8FD4-6111AC3BAD26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC7869D-5ED9-4F23-A0D6-722E1D8BA131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC7869D-5ED9-4F23-A0D6-722E1D8BA131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC7869D-5ED9-4F23-A0D6-722E1D8BA131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC7869D-5ED9-4F23-A0D6-722E1D8BA131}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
